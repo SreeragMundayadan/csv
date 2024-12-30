@@ -71,3 +71,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Sample CURL
+curl --location 'http://localhost:3000/csv/upload' \
+--header 'id: 1' \
+--header 'Content-Type: application/json' \
+--data '{
+  "path": "C:\\Sree\\Nest\\top\\data.csv"
+}'
+
